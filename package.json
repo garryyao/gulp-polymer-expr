@@ -1,0 +1,41 @@
+{
+  "name": "gulp-polymer-expr",
+  "version": "0.0.1",
+  "description": "Gulp plugin that transpiles expressions in Polymer template binding",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garryyao/gulp-polymer-expr.git"
+  },
+  "author": "Garry Yao <yaojun85@gmail.com> (github.com/garryyao)",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "domhandler": "^2.3.0",
+    "esprima": "^3.1.3",
+    "esquery": "^0.4.0",
+    "gulp-util": "^3.0.7",
+    "htmlparser2": "^3.9.2",
+    "jsep": "^0.3.0",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.14.0"
+  },
+  "bugs": {
+    "url": "https://github.com/garryyao/gulp-polymer-expr/issues"
+  },
+  "homepage": "https://github.com/garryyao/gulp-polymer-expr#readme",
+  "main": "index.js"
+}
