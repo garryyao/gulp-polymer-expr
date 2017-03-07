@@ -20,9 +20,9 @@ Valid JavaScript expression can be used, with a few regulations:
 
 * No assignment operators (i.e. a = b, a += 1, a-- and so on);
 * No new, delete, or void operators;
-* No function literals (i.e. anything that involves the function keyword)
-* Any path to a local scope property, including `index` and `item`  alike properties created dynamical in sub template like `dom-repeat`;
-* Use of any path that are not present in the local component (either through declared properties or data binding paths) are considered as *global objects*.
+* No function literals (i.e. anything that involves the function keyword);
+* Path (or complex path) to host element's property is ok, including `index` and `item`  alike properties created dynamical in sub template like `dom-repeat`;
+* *Global objects* or **Global function* call is ok.
 
 ## Install
 
