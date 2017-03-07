@@ -1,7 +1,7 @@
 {
   "name": "gulp-polymer-expr",
   "version": "0.0.1",
-  "description": "Gulp plugin that transpiles expressions in Polymer template binding",
+  "description": "Use JS expression in Polymer data binding",
   "license": "MIT",
   "repository": {
     "type": "git",
